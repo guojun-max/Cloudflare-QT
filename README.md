@@ -45,7 +45,15 @@
 ---
 
 ## 快速开始
-
+### docker直接运行（x86 / arm）
+```bash
+docker run -d \
+  --name cf-quicktunnel \
+  --restart unless-stopped \
+  -p 9970:9970 \
+  -v $(pwd)/data:/app/data \
+  docker.1ms.run/vtoupix/cf-quicktunnel:0.5.4
+```
 ### 桌面端（Windows）
 
 1. 下载 Release 中的 `cf-quicktunnel-desktop.exe`，双击运行
@@ -65,15 +73,7 @@ chmod +x cf-quicktunnel-linux-amd64
 # 如需局域网直连，显式指定监听地址
 CFQT_ADDR=0.0.0.0:9970 ./cf-quicktunnel-linux-amd64
 ```
-### docker直接运行（x86 / arm）
-```bash
-docker run -d \
-  --name cf-quicktunnel \
-  --restart unless-stopped \
-  -p 9970:9970 \
-  -v $(pwd)/data:/app/data \
-  docker.1ms.run/vtoupix/cf-quicktunnel:0.5.4
-```
+
 
 
 

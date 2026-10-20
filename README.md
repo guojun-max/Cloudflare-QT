@@ -156,5 +156,6 @@ CFQT_ADDR=0.0.0.0:9970 ./cf-quicktunnel-linux-amd64
 </p>
 
 <p align="center">
-  <img width="446" height="267" alt="pay" src="https://github.com/user-attachments/assets/3327c9b2-f8e6-4610-bb13-d8a4382b92f5" />
+  <img width="446" height="393" alt="pay" src="https://github.com/user-attachments/assets/bbdfd349-09ac-4978-9551-76a7b8e24dea" />
 </p>
+
